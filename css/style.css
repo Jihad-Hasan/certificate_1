@@ -1,0 +1,139 @@
+body{
+    color: #F6F6F7;
+    box-sizing: border-box;
+}
+.container {
+    width: 630px;
+    height: 510px;
+    background-color: #FFFFFF;
+    box-shadow: rgb(100 100 111 / 20%) 0px 0px 5px 0px;
+    margin: 50px auto;
+    padding: 10px 35px 60px;
+}
+.div1 {
+    width: 555px;
+    height: 470px;
+    background-color: #FFFFFF;
+    border: 25px solid #02B274;
+    padding: 10px;
+}
+.div2 {
+    width: 540px;
+    height: 455px;
+    background-color: #FFFFFF;
+    border: 8px solid #02B274;
+}
+.div3 h1 {
+    color: #333333;
+    font-family: 'Knockout-28';
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.div3 .first_h2 {
+    color: #333333;
+    font-family: 'Knockout-28';
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 12px;
+}
+.div3 .f_name {
+    color: #00B374;
+    font-family: 'SanchezNiu-SemiBold';
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 15px 0;
+}
+.div3 .award {
+    margin: 15px 0;
+}
+.div3 .award p {
+    color: #3a3939;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'SanchezNiu-SemiBold';
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.div3 .complete p {
+    color: #3a3939;
+    font-family: 'SanchezNiu-SemiBold';
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+.div3 .complete h2 {
+    color: #4b4040;
+    font-family: 'SanchezNiu-SemiBold';
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.div3 .complete {
+    margin-bottom: 28px;
+}
+.get {
+    color: #3a3939;
+    font-family: 'SanchezNiu-SemiBold';
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 0 0 25px;
+    padding: 0;
+}
+.row {
+    display: flex;
+    color: black;
+    font-family: 'Knockout-28';
+    letter-spacing: 1px;
+    padding: 0 25px;
+}
+.row .left {
+    flex: 50%;
+    position: relative;
+}
+.row p{
+    margin: 0;
+}
+.row .right {
+    flex: 50%;
+    position: relative;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.row .left hr {
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;  
+}
+.row .right hr {
+    margin-right: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.right hr,.left hr {
+    width: 50%;
+}
+.row .right .date {
+    font-size: 22px;
+}
+.row .right .date_title {
+    font-size: 16px;
+}
+.sign_title {
+    font-size: 13px;
+}
