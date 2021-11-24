@@ -1,88 +1,99 @@
 body{
-    color: #F6F6F7;
+    color: #E6E6E6;
     box-sizing: border-box;
 }
+hr {
+    height: 2px;
+    background: #868686;
+}
 .container {
-    width: 630px;
-    height: 510px;
+    width: 990px;
+    height: 800px;
     background-color: #FFFFFF;
     box-shadow: rgb(100 100 111 / 20%) 0px 0px 5px 0px;
-    margin: 50px auto;
-    padding: 10px 35px 60px;
+    margin: 0 auto;
+    padding: 10px 10px 10px;
+    border: 40px solid #02B274;
 }
-.div1 {
-    width: 555px;
-    height: 470px;
-    background-color: #FFFFFF;
-    border: 25px solid #02B274;
-    padding: 10px;
-}
+
 .div2 {
-    width: 540px;
-    height: 455px;
+    width: 960px;
+    height: 770px;
     background-color: #FFFFFF;
-    border: 8px solid #02B274;
+    border: 15px solid #02B274;
 }
 .div3 h1 {
-    color: #333333;
+    color: #000000;
     font-family: 'Knockout-28';
     text-align: center;
-    font-size: 45px;
+    font-size: 70px;
     letter-spacing: 1px;
     margin-bottom: 0;
 }
 
 .div3 .first_h2 {
     color: #333333;
-    font-family: 'Knockout-28';
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin: 12px;
-}
-.div3 .f_name {
-    color: #00B374;
     font-family: 'SanchezNiu-SemiBold';
     text-align: center;
-    font-size: 25px;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+.div3 .f_name {
+    color: #008053;
+    font-family: 'Knockout-27';
+    text-align: center;
+    font-size: 100px;
     letter-spacing: 2px;
     font-weight: 200;
-    margin: 15px 0;
+    margin: 0 0;
 }
 .div3 .award {
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .div3 .award p {
-    color: #3a3939;
+    color: #000000;
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'SanchezNiu-SemiBold';
     margin: 0;
     padding: 0;
-    line-height: 20px;
+    line-height: 50px;
+}
+.div3 .award .date {
+    font-family: 'Knockout-28';
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 8px;
 }
 .div3 .complete p {
     color: #3a3939;
     font-family: 'SanchezNiu-SemiBold';
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     letter-spacing: 1px;
     line-height: 25px;
     margin: 0;
     padding: 0;
 }
 .div3 .complete h2 {
-    color: #4b4040;
-    font-family: 'SanchezNiu-SemiBold';
+    color: #008053;
+    font-family: 'Knockout-28';
     text-align: center;
-    font-size: 25px;
-    letter-spacing: 1px;
+    font-size: 60px;
+    letter-spacing: 2px;
     font-weight: 500;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 .div3 .complete {
-    margin-bottom: 28px;
+    margin-bottom: 15px;
+}
+.online {
+    font-family: 'Knockout-28' !important;
+    font-size: 35px !important;
+    margin-top: 10px !important;
 }
 .get {
     color: #3a3939;
@@ -91,8 +102,14 @@ body{
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 28px;
-    margin: 0 0 25px;
     padding: 0;
+}
+.row1 {
+    display: flex;
+    color: black;
+    font-family: 'Knockout-28';
+    letter-spacing: 1px;
+    padding: 0 25px;
 }
 .row {
     display: flex;
@@ -100,10 +117,32 @@ body{
     font-family: 'Knockout-28';
     letter-spacing: 1px;
     padding: 0 25px;
+    margin-top: -32px;
+}
+.left_hr,.right_hr {
+    flex: 50%;
+}
+.left_hr ._left {
+    margin: 0;
+    background: #848484;
+    width: 140px;
+    text-align: right;
+    float: right;
+    margin-right: 120px;
+    margin-top: 5px;
+}
+.right_hr ._right {
+    margin: 0;
+    background: #848484;
+    width: 140px;
+    text-align: right;
+    margin-left: 115px;
+    margin-top: 9px;
 }
 .row .left {
     flex: 50%;
     position: relative;
+    margin-left: 40px;
 }
 .row p{
     margin: 0;
@@ -113,7 +152,8 @@ body{
     position: relative;
     text-align: right;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 35px;
+    margin-right: 50px;
 }
 .row .left hr {
     margin-left: 0px;
@@ -126,13 +166,22 @@ body{
     margin-bottom: 0;
 }
 .right hr,.left hr {
-    width: 50%;
+    width: 70%;
+    height: 2px;
+    background-color: #868686;
 }
 .row .right .date {
-    font-size: 22px;
+    font-size: 35px;
+    margin-right: 120px;
+    letter-spacing: 1px;
+}
+.row .right p a {
+    color: #000000;
+    text-decoration: none;
 }
 .row .right .date_title {
-    font-size: 16px;
+    font-size: 30px;
+    margin-right: 140px;
 }
 .sign_title {
     font-size: 13px;
